@@ -484,71 +484,72 @@ body {
   justify-content: space-between;
   height: 100px;
   margin: 0 0 24px 0;
-  .header__user {
-    display: flex;
-  }
-  .header__user-avatar-container {
-    position: relative;
-    height: 100px;
-    width: 100px;
-  }
+}
+.header__user {
+  display: flex;
+}
+.header__user-avatar-container {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
 
-  .header__user-avatar {
-    height: 100px;
-    width: auto;
-    position: absolute;
-    height: 100px;
-    width: auto;
-  }
-  .header__online-indicator {
-    z-index: 10;
-    background-color: $green;
-    border-radius: 50%;
-    margin: 0;
-    margin: 80% 0 0 80%;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    box-shadow: 0 0 0 2px #fff;
-  }
+.header__user-avatar {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  height: 100px;
+  width: auto;
+}
+.header__online-indicator {
+  z-index: 10;
+  background-color: $green;
+  border-radius: 50%;
+  margin: 0;
+  margin: 80% 0 0 80%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  box-shadow: 0 0 0 2px #fff;
+}
 
-  .header__user-title {
-    margin: 0;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 24px;
-  }
-  .header__user-paragraph-gender {
-    display: flex;
-    margin: 8px 0 4px 0;
-  }
-  .header__user-img-container {
-    height: 16px;
-    width: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.header__user-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+}
+.header__user-paragraph-gender {
+  display: flex;
+  margin: 8px 0 4px 0;
+}
+.header__user-img-container {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header__user-location {
-    margin-left: 5px;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0 4px;
+.header__user-location {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 4px;
+  min-width: 357px;
+}
+.header__user-updated-text {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 0 4px;
+  color: $gray-light-text;
+  span {
+    color: $green;
   }
-  .header__user-updated-text {
-    font-weight: 400;
-    font-size: 14px;
-    margin: 0 0 0 4px;
-    color: $gray-light-text;
-    span {
-      color: $green;
-    }
-  }
-  .header__user-updated {
-    display: flex;
-    margin: 4px 0;
-  }
+}
+.header__user-updated {
+  display: flex;
+  margin: 4px 0;
 }
 .header__user-info {
   display: flex;
@@ -888,6 +889,7 @@ body {
   }
   .header__user-location {
     text-align: center;
+    font-size: 15px;
   }
   .header__user-paragraph-gender {
     display: flex;
@@ -903,6 +905,7 @@ body {
   }
   .right__header {
     width: 100px;
+    left: 0;
     margin: 503px 15px 0 15px;
   }
   .right__header-dots {
@@ -1094,6 +1097,7 @@ body {
   }
   .right__history-resps {
     border: none;
+    margin-bottom: 10px;
   }
   .right__history-title-img {
     display: none;

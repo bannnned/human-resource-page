@@ -629,19 +629,19 @@ body {
   margin: 0 0 24px 0;
 }
 
-.left__header .header__user {
+.header__user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.left__header .header__user-avatar-container {
+.header__user-avatar-container {
   position: relative;
   height: 100px;
   width: 100px;
 }
 
-.left__header .header__user-avatar {
+.header__user-avatar {
   height: 100px;
   width: auto;
   position: absolute;
@@ -649,7 +649,7 @@ body {
   width: auto;
 }
 
-.left__header .header__online-indicator {
+.header__online-indicator {
   z-index: 10;
   background-color: #2f9626;
   border-radius: 50%;
@@ -662,21 +662,21 @@ body {
           box-shadow: 0 0 0 2px #fff;
 }
 
-.left__header .header__user-title {
+.header__user-title {
   margin: 0;
   font-weight: 500;
   font-size: 22px;
   line-height: 24px;
 }
 
-.left__header .header__user-paragraph-gender {
+.header__user-paragraph-gender {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 8px 0 4px 0;
 }
 
-.left__header .header__user-img-container {
+.header__user-img-container {
   height: 16px;
   width: 16px;
   display: -webkit-box;
@@ -690,25 +690,26 @@ body {
           align-items: center;
 }
 
-.left__header .header__user-location {
+.header__user-location {
   margin-left: 5px;
   font-weight: 400;
   font-size: 16px;
   margin: 0 4px;
+  min-width: 357px;
 }
 
-.left__header .header__user-updated-text {
+.header__user-updated-text {
   font-weight: 400;
   font-size: 14px;
   margin: 0 0 0 4px;
   color: #8999a5;
 }
 
-.left__header .header__user-updated-text span {
+.header__user-updated-text span {
   color: #2f9626;
 }
 
-.left__header .header__user-updated {
+.header__user-updated {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1132,6 +1133,7 @@ body {
   }
   .header__user-location {
     text-align: center;
+    font-size: 15px;
   }
   .header__user-paragraph-gender {
     display: -webkit-box;
@@ -1155,6 +1157,7 @@ body {
   }
   .right__header {
     width: 100px;
+    left: 0;
     margin: 503px 15px 0 15px;
   }
   .right__header-dots {
@@ -1373,6 +1376,7 @@ body {
   }
   .right__history-resps {
     border: none;
+    margin-bottom: 10px;
   }
   .right__history-title-img {
     display: none;
