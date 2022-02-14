@@ -116,6 +116,7 @@ for (let i = 0; i < vacancyItem.length; i++) {
     offerButtonText.textContent = "Приглашение отправлено";
     offerButtonCheck.classList.remove("inactive-display");
     vacancyList.classList.toggle("inactive");
+    cancelButton.classList.toggle("inactive");
   });
 }
 

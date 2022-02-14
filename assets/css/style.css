@@ -790,10 +790,7 @@ body {
   display: none;
   -webkit-transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.inactive-display {
-  display: none;
+  visibility: hidden;
 }
 
 .inactive-display-2 {
@@ -1030,6 +1027,10 @@ body {
 }
 
 .right__cancel-button {
+  display: none;
+}
+
+.inactive-display {
   display: none;
 }
 

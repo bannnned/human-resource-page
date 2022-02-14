@@ -605,11 +605,10 @@ body {
   opacity: 0;
   display: none;
   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  visibility: hidden;
 }
 
-.inactive-display {
-  display: none;
-}
+
 .inactive-display-2 {
   visibility: hidden;
 }
@@ -811,6 +810,9 @@ body {
   display: none;
 }
 .right__cancel-button {
+  display: none;
+}
+.inactive-display {
   display: none;
 }
 
