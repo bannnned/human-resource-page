@@ -1,4 +1,3 @@
-import {rightButtons, videoInterview, salary} from './html-content.js'
 
 /* Slider mini */
 $(document).ready(function () {
@@ -51,26 +50,7 @@ $(document).ready(function () {
     fade: true, //Slideshow
   });
 });
-
-
 console.log()
-
-/* Appear buttons */
-const leftHeader = document.querySelector(".left__header")
-const leftProfTitle = document.querySelector(".left__profession-title")
-const rightHistory = document.querySelector(".right__history")
-if($(window).width() > 950) {
-    rightHistory.insertAdjacentHTML('beforebegin', salary);
-    rightHistory.insertAdjacentHTML('beforebegin', videoInterview);
-    rightHistory.insertAdjacentHTML('beforebegin', rightButtons);
-
-} else {
-    leftHeader.insertAdjacentHTML('afterend', videoInterview);
-    leftHeader.insertAdjacentHTML('afterend', rightButtons);
-    leftProfTitle.insertAdjacentHTML('afterend', salary);
-}
-
-
 
 /* Read more buttons */
 const readMoreButton = document.querySelectorAll(".read-more-btn");
